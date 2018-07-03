@@ -1,0 +1,49 @@
+.navbar-brand {
+  padding-left: 24px;
+}
+
+.main-container {
+  position: relative;
+  top: 50px;
+}
+
+.jumbotron {
+  background-image: url('../images/wood-background.jpeg');
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.info-section {
+  padding-top: 25px;
+}
+
+.info i,
+.info h3,
+.info p,
+.info ul {
+  padding: 8px 24px;
+}
+
+.location-section {
+  /* background-color: #333030; */
+  /* color: white; */
+}
+
+.location-info h1,
+.location-info p {
+  padding: 12px 24px;
+}
+
+.location-info {
+  padding: 24px;
+}
+
+#map {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* .location-map iframe{
+  padding-left: 24px;
+  padding-bottom: 24px;
+} */
