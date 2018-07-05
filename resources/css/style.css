@@ -1,18 +1,25 @@
+/* Global */
+
+
+/* Nav Bar */
 .navbar-brand {
   padding-left: 24px;
 }
 
+/* Main */
 .main-container {
   position: relative;
   top: 50px;
 }
 
+/* Jumbotron */
 .jumbotron {
   background-image: url('../images/wood-background.jpeg');
   background-size: cover;
   padding: 100px 0;
 }
 
+/* Info Section */
 .info-section {
   padding-top: 25px;
 }
@@ -24,6 +31,7 @@
   padding: 8px 24px;
 }
 
+/* Location Section */
 .location-section {
   /* background-color: #333030; */
   /* color: white; */
@@ -47,3 +55,43 @@
   padding-left: 24px;
   padding-bottom: 24px;
 } */
+
+/* Blog Section */
+.header {
+  padding-top: 24px;
+}
+
+.blog-post {
+  padding-top: 24px;
+}
+
+.blog-post-image {
+  width: 30%;
+  height: auto;
+}
+
+.blog-post-content-section {
+  width: 70%;
+  float: right;
+  padding-left: 16px;
+}
+
+.blog-post-title {
+  padding-bottom: 2px;
+  margin-bottom: 0px;
+}
+
+.blog-post-button {
+  display: block;
+}
+
+.blog-post-date,
+.blog-post-posted-by {
+  font-size: .80em;
+  padding-bottom: 5px;
+}
+
+.blog-section .col-md-6{
+  max-height: 500px;
+  overflow: scroll;
+}
