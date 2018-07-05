@@ -74,6 +74,7 @@
   width: 70%;
   float: right;
   padding-left: 16px;
+  clear: left;
 }
 
 .blog-post-title {
@@ -91,7 +92,6 @@
   padding-bottom: 5px;
 }
 
-.blog-section .col-md-6{
-  max-height: 500px;
-  overflow: scroll;
+.blog-button {
+  margin-top: 36px;
 }
